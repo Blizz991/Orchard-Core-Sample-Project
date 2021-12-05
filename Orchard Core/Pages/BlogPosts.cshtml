@@ -1,0 +1,19 @@
+﻿@page "/blogposts"
+@inject OrchardCore.IOrchardHelper Orchard
+
+@{
+    var blogPosts = await Orchard.GetRecentContentItemsByContentTypeAsync("BlogPost");
+}
+<h2>This is blogposts overview</h2>
+<ul>
+
+
+    @foreach (var blogpost in blogPosts)
+    {
+        <li>
+            <h4>@blogpost.DisplayText</h4>
+            <code>@blogpost.Id</code>
+            <p>@blogpost.Content</p>
+        </li>
+    }
+</ul>

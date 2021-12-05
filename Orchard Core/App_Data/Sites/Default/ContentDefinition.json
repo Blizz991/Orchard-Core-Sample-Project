@@ -387,7 +387,23 @@
         }
       },
       "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "BlogPost",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "Teaser",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Teaser",
+              "Position": "0"
+            }
+          }
+        }
+      ]
     }
   ],
-  "Identifier": "485wsq7aksztt7jt6c9hm8f8xz"
+  "Identifier": "4c71hymady5rjy71rntc96c8mx"
 }
