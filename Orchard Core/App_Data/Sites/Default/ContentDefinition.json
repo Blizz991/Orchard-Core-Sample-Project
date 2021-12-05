@@ -195,12 +195,30 @@
           "Name": "PreviewPart",
           "Settings": {
             "ContentTypePartSettings": {
-              "Position": "4"
+              "Position": "6"
             },
             "PreviewPartSettings": {
               "Pattern": "/blogpost/{{ContentItem.Content.AliasPart.Alias }}"
             },
             "ContentIndexSettings": {}
+          }
+        },
+        {
+          "PartName": "BagPart",
+          "Name": "BagPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "5"
+            }
+          }
+        },
+        {
+          "PartName": "ListPart",
+          "Name": "ListPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "4"
+            }
           }
         }
       ]
@@ -405,5 +423,5 @@
       ]
     }
   ],
-  "Identifier": "4c71hymady5rjy71rntc96c8mx"
+  "Identifier": "4ww2xb75d2hxy069xdsvvrx1ch"
 }
